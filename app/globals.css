@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300;400;600;700&family=K2D:wght@300;400;600;700&display=swap');
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { --black: #0a0a0f; --dark: #12121a; --card: #1a1a25; }
+body { background: var(--black); color: #f0f0f5; font-family: 'Anuphan', 'K2D', sans-serif; }
+.gradient-text { @apply bg-gradient-to-r from-neon-purple via-neon-pink to-neon-blue bg-clip-text text-transparent; }
+.btn-primary { @apply px-6 py-3 rounded-full bg-gradient-to-r from-neon-purple to-neon-pink text-white font-semibold transition hover:shadow-lg hover:shadow-neon-purple/30 hover:-translate-y-0.5; }
+.btn-outline { @apply px-6 py-3 rounded-full border border-neon-purple text-white hover:bg-neon-purple/10 transition; }
+.page-container { @apply min-h-screen pt-28 px-4 max-w-7xl mx-auto pb-20; }

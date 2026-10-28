@@ -1,0 +1,1 @@
+export default function Home() { return <div className="page-container"><h1 className="text-4xl font-bold gradient-text">Paiya Namna Portfolio</h1><p className="mt-4 text-gray-400">ระบบพร้อมใช้งานแล้ว!</p></div>; }
